@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: oklab(97.44699999999999% 0.00177 -0.00234);
+}
+
+header {
+    background-color: hsl(274, 45%, 28%);
+    color: #efeef0;
+    padding: 15px;
+}
+
+nav a {
+    margin: 10px;
+    color: rgba(245, 245, 245, 0.89);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #50295e;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.image-container {
+    display: flex;
+    gap: 80px; /* space between images */
+}
+
+.image-container img {
+    width: 2500px;
+}.image-container {
+    display: flex;
+    justify-content: center; /* centers image horizontally */
+    align-items: center; /* centers vertically if height is set */
+}
+
+.image-container img {
+    width: 750px;
+}
